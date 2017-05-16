@@ -1,0 +1,32 @@
+body{
+	background-color: indigo;
+	font-family: 'Ravi Prakash', cursive;
+	color: yellow;
+}
+
+#menu-principal{
+	width: 80%;
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+#menu-principal ul{
+	list-style: none;
+	padding-left: 0; /* es como una sangria */
+}
+
+#menu-principal li{
+	display: inline-block;
+}
+
+#menu-principal ul li a{
+	text-decoration: none;
+	color: #484848;
+	padding: 10px 68px;
+	display: block;
+	width: 25%;
+}
+
+input[name="mi-input"]{
+	border: 5px solid red;
+}
